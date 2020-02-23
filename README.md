@@ -18,6 +18,6 @@ A big shout-out to the whole Julia community, a wonderful bunch of intelligent h
 - Chris Rackaukas for his [Developing Julia Packages tutorial](http://www.stochasticlifestyle.com/developing-julia-packages/), which also covers unit testing and CI.
 - Aurelio Amerio for his blogpost tutorial that covers largely the same material as above, [Package Registration and Tests](https://techytok.com/lesson-package-registration/).
 - Matt Bauman from Julia Computing, who gave me the push I needed to step up from writing silly little scripts to actually learning how to package up my code, and various other advice.
-- And finally, I used Invenia's awesome [PkgTemplates](https://github.com/invenia/PkgTemplates.jl) package generator to set up my package. (Both Chris in his video and Matt in my session with him showed how to us it.) So many thanks to them for their contributions to the community.
+- And finally, I used Invenia's awesome [PkgTemplates](https://github.com/invenia/PkgTemplates.jl) package generator to set up my package. (Both Chris, in his video, and Matt, in my session with him, showed how to use it and how it automates the more manual parts of package creation.) So many thanks to them for their contributions to the Julia ecosystem and to the community.
 
 There are probably others I'm not thinking of, so many thanks to the Julia community as a whole.
