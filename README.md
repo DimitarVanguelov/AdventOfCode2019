@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.com/EarthGoddessDude/AdventOfCode2019.svg?branch=master)](https://travis-ci.com/EarthGoddessDude/AdventOfCode2019)
+[![Coverage Status](https://coveralls.io/repos/github/EarthGoddessDude/AdventOfCode2019/badge.svg?branch=master)](https://coveralls.io/github/EarthGoddessDude/AdventOfCode2019?branch=master)
+[![codecov.io](https://codecov.io/github/EarthGoddessDude/AdventOfCode2019/coverage.svg?branch=master)](https://codecov.io/github/EarthGoddessDude/AdventOfCode2019?branch=master)
+
 # Advent Of Code 2019
 
 This is my attempt at doing the [Advent of Code 2019 challenge](https://adventofcode.com/2019/). I started late, on February 22nd, and is only meant for personal practice. I am doing it in **Julia** because I love it and want to get better at it.
