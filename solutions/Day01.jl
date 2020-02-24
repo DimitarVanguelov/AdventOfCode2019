@@ -102,8 +102,8 @@ mass_input = [85824,
               93331,
               129279]
 
-# Part 1: Fuel requirement not taking into account the mass of fuel (d'oh!)
+# Part 1: Fuel requirement not taking into account the mass of the fuel itself (d'oh!)
 naive_fuel_requirement = sum(naive_fuel.(mass_input))
 
-# Part 2: Fuel requirement taking into account mass of fuel
+# Part 2: Fuel requirement taking into account the mass of the fuel itself
 actual_fuel_requirement = sum(actual_fuel.(mass_input))
