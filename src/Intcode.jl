@@ -1,11 +1,11 @@
 # opcode calc
-function calc(opcode, input1, input2)
+function intcode_calc(opcode::Int, input1::Int, input2::Int)
     if opcode == 1
         result = input1 + input2
     elseif opcode == 2
         result = input1 * input2
     else
-        throw("Unknown operation!")
+        error("Unknown operation!")
     end
     return result
 end
@@ -31,7 +31,7 @@ function intcode(v::Vector{Int64})
             input2_val = new_v[input2_pos]
 
             res_pos = new_v[i+3] + 1
-            res_val = calc(op, input1_val, input2_val)
+            res_val = intcode_calc(op, input1_val, input2_val)
 
             new_v[res_pos] = res_val
         end # if
