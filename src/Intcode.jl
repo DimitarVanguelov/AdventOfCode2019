@@ -1,7 +1,4 @@
-v = [1,9,10,3,2,3,11,0,99,30,40,50]
-len = length(v)
-p = [0:len-1;] # position helper
-
+# opcode calc
 function calc(opcode, input1, input2)
     if opcode == 1
         result = input1 + input2
@@ -13,12 +10,7 @@ function calc(opcode, input1, input2)
     return result
 end
 
-adj_v = []
-for n in p
-    push!(adj_v, (n, v[n+1]))
-end
-
-
+# the Intcode program itself; it does not mutate the original input vector, returns mutated copy
 function intcode(v::Vector{Int64})
     new_v = copy(v)
     len = length(v)
