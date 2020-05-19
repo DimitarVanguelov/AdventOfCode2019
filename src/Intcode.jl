@@ -16,12 +16,9 @@ function intcode(v::Vector{Int64})
     len = length(v)
 
     for i in 1:4:len
-        # i = n + 1
         if new_v[i] == 99
             break
         else
-            # println((n, v[i]))
-            # a = (v[i], v[i+1], v[i+2])
             op = new_v[i]
 
             input1_pos = new_v[i+1] + 1
